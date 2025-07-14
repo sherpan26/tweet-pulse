@@ -12,9 +12,7 @@ A Kafka → MongoDB → Streamlit pipeline that collects tweets on #AI/#Tech, ru
 
 2. **Setup**
 
-bash
-Copy
-Edit
+
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -36,16 +34,21 @@ streamlit run dashboard.py
 4.**Hypothesis Tests**
 
 bash
-Copy
-Edit
+
 python hypothesis_tests.py
+
 File Structure
-Copy
-Edit
+
 ├─ tweepy_collector.py
+
 ├─ tweet_producer.py
+
 ├─ tweet_consumer.py
+
 ├─ dashboard.py
+
 ├─ hypothesis_tests.py
+
 ├─ requirements.txt
+
 └─ README.md
